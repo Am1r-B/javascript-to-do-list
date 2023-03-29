@@ -3,7 +3,7 @@
 const addTask = document.getElementById("add-task");
 const taskContainer = document.getElementById("task-container");
 const inputTask = document.getElementById("input-task");
-console.log(addTask, taskContainer, inputTask);
+
 // Event Listener for Add Button
 
 addTask.addEventListener("click", function () {
