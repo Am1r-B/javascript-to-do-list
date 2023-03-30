@@ -29,4 +29,14 @@ addTask.addEventListener("click", function () {
   } else {
     taskContainer.appendChild(task);
   }
+
+  inputTask.value = "";
+
+  checkButton.addEventListener("click", function () {
+    checkButton.parentElement.style.textDecoration = "line-through";
+  });
+
+  deleteButton.addEventListener("click", function () {
+    deleteButton.parentElement.remove();
+  });
 });
